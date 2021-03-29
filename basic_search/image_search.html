@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Image Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="links">
         <a href="index.html">Home</a>
     </div>
-    <div class=search_bar>
+    <div>
         <h1>Image Search</h1>
-        <form action="https://google.com/imghp">
-            <input type="text" name="q"> <div>
-            <input type="submit" value="Image Search">
-        </form>
+        <center>
+            <form action="https://google.com/search">
+                <input type="text" class="form-control" name="q">
+                <div>
+                    <input name="tbm" value="isch" hidden>
+                    <button type="submit" class="btn btn-light">Image Search</button>
+            </form>
+        </center>
     </div>
 
 </body>
+
 </html>

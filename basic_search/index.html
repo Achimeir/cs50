@@ -3,19 +3,27 @@
 
 <head>
     <title>Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class=links>
-        <a href="image_search.html" style="margin-right: 10px"> Image Search </a> 
+        <a href="image_search.html" style="padding-right: 10px"> Images </a>
         <a href="advanced_search.html"> Advanced Search </a>
     </div>
-    <div class=search_bar>
+    <div>
         <h1>Google Search</h1>
-        <form action="https://google.com/search">
-            <input type="text" name="q"><div>
-            <input type="submit" value="Google Search">
-        </form>
+        <center>
+            <form action="https://google.com/search">
+                <input type="text" class="form-control" name="q">
+                <div>
+                    <button type="submit" class="btn btn-light">Google Search</button>
+                    <button type="submit" class="btn btn-light" name="btnI" value=1> I’m Feeling Lucky</button>
+                </div>
+            </form>
+        </center>
     </div>
 </body>
 
